@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
+        margin-left: 5px;
+        text-transform: capitalize;
+    }
+
+    li {
+        list-style: none;
+        border: solid;
+        margin-top: 2px;
+        text-align: center;
+        color: white;
+        border-width: 0px;
+        border-radius: 5px;
+        width: 20%;
+        margin: 0 17rem;
+    }
+
+    .list-container {
+        border: solid;
+        width: 50%;
+        background-color: darkgreen;
+        margin: 0 20rem;
+        border-width: 0px;
+        border-radius: 10px;
+        padding: 3rem 3rem;
+    }
+    
+    ul {
+        margin-right: 36px;
+        margin-top: 10px;
+    }
+    
+    .nokia {
+        background-color: yellow;
+    }
+
+    .samsung {
+        background-color: aqua;
+    }
+    
+    .techno {
+        background-color: brown;
+    }
+    
+    .itel {
+        background: black;
+    }
+
+    .infinix {
+        background-color: blue;
+    }
+
+    .iphone {
+        background-color: purple;
+    }
+
+    .sony {
+        background: orange;
+    }
+    
+    .formsection {
+        margin-top: 2rem;
+    }
+
+    form {
+        background-color: crimson;
+        width: 30%;
+        margin: 0rem 20rem;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    .emailandpassword input {
+        padding: 5px 5px;
+        height: 14px;
+        font-size: 16px;
+        outline: none;
+        border-radius: 3px;
+    }
+    
+    label {
+        color: white;
+    }
+
+    .formitems {
+        margin-top: 20px;
+    }
+
+    input, select, textarea {
+        margin-top: 10px;
+    }
+
+    textarea {
+        resize: none;
+        outline: none;
+        border-width: 0px;
+        border-radius: 3px;
+        padding: 5px 5px;
+        height: 4rem;
+        width: 12.5rem;
+    }
+
+    button {
+        background: blue;
+        border-width: 0px;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-left: 4.5rem;
+    }
+    table{
+        height: 271px;
+        width: 46%;
+        margin-top: 10px;
+    }
+    thead{
+        border-width: 0px;
+    }
+    tbody{
+        border-width: 0px;
+    }
+    td{
+        text-align: center;
+        border-width: 0px;
+    }
+    tr{
+        text-align: center;
+        border-width: 0px;
+    }
+    .role1{
+        background-color: chartreuse;
+    }
+    .role2{
+        background-color: darkgray;
+    }
+    .role3{
+        background-color: darkred;
+    }
+    .role4{
+        background-color: greenyellow;
+    }
+    .role5{
+        background-color: lightsalmon;
+    }
+    .role6{
+        background-color: seagreen;
+    }
+    .table{
+        margin-left: 20rem;
+
+    }
+
+</style>
+<body>
+    <main>
+        <div class="list-container">
+            <div>
+                <h3>My Phone list</h3>
+            </div>
+            <ul>
+                <li class="nokia">Nokia</li>
+                <li class="samsung">Samsung</li>
+                <li class="techno">Techno</li>
+                <li class="itel">Itel</li>
+                <li class="infinix">Ifinix</li>
+                <li class="iphone">Iphone</li>
+                <li class="sony">Sony</li>
+            </ul>
+        </div>
+        <section class="formsection">
+            <hr />
+            <form action="">
+                <div class="formitems">
+                    <label for="text">Email:</label>
+                    <div class="emailandpassword">
+                        <input type="text" placeholder="Enter your email" />
+                    </div>
+                </div>
+                <div class="emailandpassword formitems" >
+                    <label for="Password"  >Password:</label>
+                    <div>
+                        <input type="password" placeholder="Your password"/>
+                    </div>
+                </div>
+                <div class="formitems">
+                    <label for="select">Sex</label>
+                    <div>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="formitems">
+                    <label for="checkbox">Do you agree tothe terms and condition</label>
+                    <input type="checkbox">
+                </div>
+               
+               <div class="formitems">
+                    <label for="textarea">Comments:</label>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+               </div>
+               <div class="formitems">
+                    <button>submit</button>
+               </div>
+            </form>
+        </section>
+
+        <section class="table">
+            <table border="1">
+                <thead>
+                    <tr class="role1">
+                        <td>NAME</td>
+                        <td>AGE</td>
+                        <td>STATE</td>
+                        <td>RELIGION</td>
+                        <td>GENDER</td>
+                    </tr>                   
+                </thead>
+                <tbody>
+                    <tr class="role2">
+                        <td>Peace</td>
+                        <td>50</td>
+                        <td>Anambra</td>
+                        <td>christian</td>
+                        <td>Female</td>
+                    </tr>
+                     <tr class="role3">
+                        <td>Peace</td>
+                        <td>50</td>
+                        <td>Anambra</td>
+                        <td>christian</td>
+                        <td>Female</td>
+                    </tr>
+                    <tr class="role4">
+                        <td>Peace</td>
+                        <td>50</td>
+                        <td>Anambra</td>
+                        <td>christian</td>
+                        <td>Female</td>
+                    </tr>
+                    <tr class="role5">
+                        <td>Peace</td>
+                        <td>50</td>
+                        <td>Anambra</td>
+                        <td>christian</td>
+                        <td>Female</td>
+                    </tr>
+                    <tr class="role6">
+                        <td>Peace</td>
+                        <td>50</td>
+                        <td>Anambra</td>
+                        <td>christian</td>
+                        <td>Female</td>
+                    </tr> 
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+</body>
+</html>

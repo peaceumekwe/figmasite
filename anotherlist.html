@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    .menuItems a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menuItems a:hover {
+        color: yellow;
+        background-color: blue;
+    }
+
+    .menuItems a:active {
+        color: red;
+        background-color: green;
+    }
+
+    button {
+        /* border-width: 0px; */
+    }
+
+    button:hover {
+        background-color: crimson;
+        color: white;
+        cursor: pointer;
+    }
+   
+   button:active {
+    border-color: green;
+   }
+
+   .floatparent {
+     border: solid;
+   }
+
+   .floatparent img {
+    height: 30%;
+   }
+
+   .floatbuttons {
+     border: solid;
+     width: 50%;
+     margin: 10px 0px 0px 5rem;
+     height: 30vh;
+     padding: 4rem;
+   }
+
+   .button1 {
+    float: right;
+   }
+
+   .links {
+    float: right;
+   }
+</style>
+<body>
+    <h4>Website Logo</h4>
+    <a href="">
+        <button>click</button>
+    </a>
+    <ul class="menuItems">
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Service</a>
+        </li>
+        <li>
+            <a href="">Portfolio</a>
+        </li>
+        <li>
+            <a href="">Contact us</a>
+        </li>
+    </ul>
+
+    <div class="floatparent">
+        <img src="images/img1.jpg" alt="">
+        <img src="images/img2.jpg" alt="">
+        <img src="images/img3.jpg" alt="">
+    </div>
+
+    <div class="floatbuttons">
+        <button>
+           button 1
+        </button>
+        <button class="button1">
+           button 2
+        </button>
+        <a href="" class="links">visit us here</a>
+    </div>
+</body>
+</html>
